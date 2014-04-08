@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "About", "About", "{3459FF01
 		README = README
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LlinkedGrad.Framework", "LlinkedGrad.Framework\LlinkedGrad.Framework.csproj", "{48B3ED60-F510-4C86-BED3-A65DA6F872EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{98C98208-FDEB-4C53-A6DE-7A9B5B4359B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98C98208-FDEB-4C53-A6DE-7A9B5B4359B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98C98208-FDEB-4C53-A6DE-7A9B5B4359B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B3ED60-F510-4C86-BED3-A65DA6F872EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B3ED60-F510-4C86-BED3-A65DA6F872EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B3ED60-F510-4C86-BED3-A65DA6F872EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B3ED60-F510-4C86-BED3-A65DA6F872EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
