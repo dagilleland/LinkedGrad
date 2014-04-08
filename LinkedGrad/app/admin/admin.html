@@ -6,6 +6,74 @@
                     <div data-cc-widget-header title="{{vm.title}}"></div>
                     <div class="widget-content user">
                         <h3>TODO: Implement Your Features</h3>
+                        <ul>
+                            <li>Legal + About pages</li>
+                            <li>
+                                <b>Domain-Specific</b>
+                                <ul>
+                                    <li>
+                                        In order to be give references to Students/Grads, they must
+                                        <ul>
+                                            <li>Complete the "Student Record Reference Request Consent" form</li>
+                                            <li>Agree to the terms of the reference request</li>
+                                            <li>Identify who is allowed to be the reference(s)</li>
+                                            <li>Specify a period of time over which the reference request is valid</li>
+                                            <li>Identify the type(s) of reference requests</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Reference requests come in these forms/types:
+                                        <ul>
+                                            <li>Phone/Email/In-Person Reference Check</li>
+                                            <li>Social Media Endorsement (e.g.: Linked-In)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                Site Security
+                                <ul>
+                                    <li>Add/edit users</li>
+                                    <li>Add/edit roles</li>
+                                    <li>Add/edit membership (users in roles)</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Page Management
+                                <ul>
+                                    <li>Add/edit a "dynamic" page (page in database)</li>
+                                    <li>Add/edit a "static" page (page in file structure)</li>
+                                    <li>Page security</li>
+                                </ul>
+                            </li>
+                            <li>Subscription Services</li>
+                        </ul>
+                        <h4>Linked-Grad Overview</h4>
+                        <p>Often, students ask instructors to be a reference for them as they leave school to look for work. In order for an instructor to be a reference, the student must complete a "Student Record Reference Request Consent" form (see sample below). This has worked well for the "traditional" means of being a reference (students giving potential employers the instructor's contact information and then employers contacting by phone, email, etc. to ask questions about the student as a potential employee). Where it fails is in the current world of web-based resumes and endorsements.</p>
+                        <p>On the web, students may choose to set up profiles and/or resumes on various kinds of sites, such as Linked-In, <u>[MORE SAMPLES]</u>. In those contexts, students may want instructors to act as a reference or to "endorse" them for certain skills, abilities, or characteristics. What makes these online references/endorsements unique is that they easily become "perpetual", whereas the typical reference request has an expiry (e.g.: 1 year).</p>
+                        <h4>Sample Student Record Reference Request Consent</h4>
+                        <p>I, <input type="text" name="studentName" /> request that <input type="text" name="instructorNames" /> write a letter of reference or respond to a reference check on my behalf.</p>
+                        <p>I understand that <input type="text" name="instructorNames" /> will have to disclose personal information regarding myself including grades, attendance information and personal characteristics, in order to write a letter of reference or respond to a reference check on my behalf and I consent to this disclosure.</p>
+                        <p>I consent to the disclosure of my above described personal information:</p>
+                        <p>
+                            <input type="checkbox" name="limitedDisclosure" id="limitedDisclosure" />
+                            <label for="limitedDisclosure">Only to the following individuals or organizations:</label>
+                            <textarea name="employers"></textarea>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="fullDisclosure" id="fullDisclosure" />
+                            <label for="limitedDisclosure">To all requests for references.</label>
+                        </p>
+                        <p>This consent will be effective for a period of <input type="text" name="disclosurePeriod" /> after the signature date.</p>
+                        <p>
+                            <label for="studentSignature">Signature</label>
+                            <input type="text" name="studentSignature" id="studentSignature" />
+                        </p>
+                        <p>
+                            <label for="effectiveDate">Date</label>
+                            <input type="date" name="effectiveDate" id="effectiveDate" />
+                        </p>
+                        <p>This form constitutes a consent to the disclosure of personal information pursuant to the <em>Freedom of Information and Protection of Privacy Act</em> &ndash; section 40 (1) (d). If you have any questions regarding the use of this form, contact General Counsel at <u>[ENTER SCHOOL NAME-LOCATION-PHONE]</u>.</p>
                     </div>
                     <div class="widget-foot">
                         <div class="clearfix"></div>
